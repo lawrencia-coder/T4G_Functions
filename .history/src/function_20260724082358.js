@@ -1,0 +1,2 @@
+alert ("Hi there, Welcome to our website")
+let gprompt("")
