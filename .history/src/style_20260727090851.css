@@ -1,0 +1,126 @@
+h1{ color: rgb(120, 88, 8);};
+img{ height: fit-content; width: fit-content;};
+
+/* 🌸 Gender Reveal Celebration Theme 🌸 */
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #ffd6e0 0%, #d6eaff 100%);
+    color: #333;
+    text-align: center;
+    overflow-x: hidden;
+}
+
+/* Header */
+.title {
+    font-size: 3rem;
+    color: #b57edc;
+    margin-top: 2rem;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+    animation: fadeInDown 1.5s ease;
+}
+
+.subtitle {
+    font-size: 1.3rem;
+    color: #555;
+    margin-bottom: 2rem;
+    animation: fadeIn 2s ease;
+}
+
+/* Countdown */
+.countdown-section {
+    margin: 2rem 0;
+}
+
+#countdown {
+    font-size: 2rem;
+    color: #b57edc;
+    font-weight: bold;
+}
+
+/* Main Image */
+.main-image {
+    width: 300px;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    animation: float 3s ease-in-out infinite;
+}
+
+/* Buttons */
+.buttons {
+    margin-top: 2rem;
+}
+
+.reveal-btn {
+    font-size: 1.2rem;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    margin: 10px;
+    transition: all 0.3s ease;
+}
+
+.reveal-btn.boy {
+    background-color: #87cefa;
+    color: white;
+}
+
+.reveal-btn.girl {
+    background-color: #ffb6c1;
+    color: white;
+}
+
+.reveal-btn:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+/* Gallery */
+.gallery {
+    margin: 3rem 0;
+}
+
+.photo-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.photo-grid img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease;
+}
+
+.photo-grid img:hover {
+    transform: scale(1.05);
+}
+
+/* Footer */
+.footer {
+    margin-top: 3rem;
+    font-size: 1rem;
+    color: #666;
+}
+
+/* ✨ Animations ✨ */
+@keyframes fadeInDown {
+    from { opacity: 0; transform: translateY(-30px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+}

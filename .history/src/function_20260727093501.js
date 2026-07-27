@@ -17,12 +17,12 @@ function launchCelebration(emojis) {
 
 function Usergender() {
   const message = document.getElementById('message');
-  if (gender === "male"){
+  if (gender === "male") {
     document.body.style.background = "#87cefa"; // blue
     message.innerText = "💙 Congratulations! It's a Boy 🎉";
     launchCelebration("🎉💙🎂");
   }else if (gender === "female") {
-    document.body.style.background = "#fd8fa0"; // pink
+    document.body.style.background = "#ffb6c1"; // pink
     message.innerText = "💖 Congratulations! It's a Girl 🎉";
     launchCelebration("🎉💖🎂");
   } else {

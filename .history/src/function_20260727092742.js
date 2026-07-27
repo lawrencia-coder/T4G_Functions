@@ -17,12 +17,12 @@ function launchCelebration(emojis) {
 
 function Usergender() {
   const message = document.getElementById('message');
-  if (gender === "male"){
+  if (gender === "male") {
     document.body.style.background = "#87cefa"; // blue
     message.innerText = "💙 Congratulations! It's a Boy 🎉";
     launchCelebration("🎉💙🎂");
-  }else if (gender === "female") {
-    document.body.style.background = "#fd8fa0"; // pink
+  } else if (gender === "female") {
+    document.body.style.background = "#ffb6c1"; // pink
     message.innerText = "💖 Congratulations! It's a Girl 🎉";
     launchCelebration("🎉💖🎂");
   } else {
@@ -33,14 +33,4 @@ function Usergender() {
 Usergender();
 
 // Buttons still work for manual reveal
-document.getElementById('boyBtn').addEventListener('click', () => {
-  document.body.style.background = "#87cefa";
-  document.getElementById('message').innerText = "💙 Congratulations! It's a Boy 🎉";
-  launchCelebration("🎉💙🎂");
-});
-
-document.getElementById('girlBtn').addEventListener('click', () => {
-  document.body.style.background = "#ffb6c1";
-  document.getElementById('message').innerText = "💖 Congratulations! It's a Girl 🎉";
-  launchCelebration("🎉💖🎂");
-});
+document.getElementById('
