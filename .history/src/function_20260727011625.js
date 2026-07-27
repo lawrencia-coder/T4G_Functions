@@ -7,6 +7,6 @@ function Usergender (){
         alert("You are a Boy!😊");
     }else if(gender === "female"){
         alert("You are a Girl!😍")
-    }else{alert("Please enter the correct gender.")}
+    }else{alert("Please enter the correct gender.')}
 };
 Usergender();
