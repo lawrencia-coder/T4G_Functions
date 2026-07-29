@@ -1,5 +1,5 @@
 // Prompt user for gender
-alert("Hello, Welcome To Gender Checker🥰");
+prompt("Hello, Welcome To Gender Checker🥰");
 let gender = prompt("Indicate here if you are a male or female (in lowercase).");
 
 function launchCelebration(emojis) {

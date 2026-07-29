@@ -1,5 +1,5 @@
 // Prompt user for gender
-alert("Hello, Welcome To Gender Checker🥰");
+prompt("Hello, Welcome To Gender Checker🥰");
 let gender = prompt("Indicate here if you are a male or female (in lowercase).");
 
 function launchCelebration(emojis) {
@@ -42,6 +42,6 @@ document.getElementById('boyBtn').addEventListener('click', () => {
 
 document.getElementById('girlBtn').addEventListener('click', () => {
   document.body.style.background = "#ffb6c1";
-  document.getElementById('message').innerText = "💖 Congratulations! You are a Girl 🎉";
+  document.getElementById('message').innerText = "💖 Congratulations! It's a Girl 🎉";
   launchCelebration("🎉💖🎂");
 });
